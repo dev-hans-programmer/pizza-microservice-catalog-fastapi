@@ -1,0 +1,27 @@
+{
+   "name": "Pizza",
+   "priceConfiguration": {
+      "size": {
+         "priceType": "base",
+         "availableOptions": ["small", "medium", "large"]
+      },
+      "crust": {
+         "priceType": "additional",
+         "availableOptions": ["Thin", "Thick"]
+      }
+   },
+   "attributes": [
+      {
+         "name": "isHit",
+         "widgetType": "switch",
+         "defaultValue": "No",
+         "availableOptions": ["Yes", "No"]
+      },
+      {
+         "name": "Spiciness",
+         "widgetType": "radio",
+         "availableOptions": ["Less", "Medium", "Hot"],
+         "defaultValue": "Medium"
+      }
+   ]
+}
